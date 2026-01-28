@@ -9,6 +9,7 @@ punzip: Decompresses files in parallel.
 (punzip2: simpler version of punzip that doesn't use threads)
 
 NOTE: punzip doesn't currently work, use punzip2 instead!
+
 NOTE: The RLE format is architecture-independent if compiled and run on the same system. Cross-platform portability may require handling endianness!
 
 ## Features
