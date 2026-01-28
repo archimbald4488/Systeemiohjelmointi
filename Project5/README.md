@@ -14,11 +14,17 @@ NOTE: The RLE format is architecture-independent if compiled and run on the same
 
 ## Features
 Parallel Compression: Input files are combined and split into chunks, each compressed by a separate thread.
+
 (Parallel Decompression: Compressed entries are split across threads and expanded independently.)
+
 Memory-Mapped File I/O (mmap): Zero-copy access to input files for efficient reading.
+
 Binary RLE Format: Each run is stored as a 4-byte integer followed by a single character.
+
 Multi-Core Utilization: Automatically detects the number of CPU cores and divides work evenly.
+
 Boundary-Safe Compression: Ensures runs that span thread chunks are merged correctly.
+
 Multiple File Support: Handles multiple input files as one continuous stream.
 
 The tests/ folder includes some test files that were used for checking the program.
