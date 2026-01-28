@@ -11,12 +11,14 @@ It reads lines of text from an input stream and prints them in reverse order.
 
 ./reverse input.txt output.txt
 
+
 #### Command Behavior
 ./reverse	Reads from standard input and writes to standard output
 
 ./reverse input.txt	Reads from a file and writes to standard output
 
 ./reverse input.txt output.txt	Reads from a file and writes to another file
+
 
 #### Example
 Input file:
@@ -31,15 +33,18 @@ is
 this
 hello
 
+
 ### Make commands
 make (to build the program)
 
 make clean (remove the build)
 
+
 ### Run
 cd Project1/build/
 
 ./reverse input.txt output.txt
+
 
 ### Error Handling
 The program handles the following error cases:
