@@ -1,18 +1,10 @@
 # Line Reversing Utility
 
-### Description
+## Description
 reverse is a simple Unix-style command-line program written in C.
 It reads lines of text from an input stream and prints them in reverse order.
 
-### Usage
-./reverse
-
-./reverse input.txt
-
-./reverse input.txt output.txt
-
-
-#### Command Behavior
+## Usage
 ./reverse	Reads from standard input and writes to standard output
 
 ./reverse input.txt	Reads from a file and writes to standard output
@@ -20,7 +12,7 @@ It reads lines of text from an input stream and prints them in reverse order.
 ./reverse input.txt output.txt	Reads from a file and writes to another file
 
 
-#### Example
+### Example
 Input file:
 hello
 this
@@ -34,13 +26,13 @@ this
 hello
 
 
-### Make commands
+## Make commands
 make (to build the program)
 
 make clean (remove the build)
 
 
-### Run
+## Run
 cd Project1/build/
 
 ./reverse input.txt output.txt
