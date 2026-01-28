@@ -14,13 +14,13 @@ int main(int argc, char *argv[]) {
             exit(1);
         }
 
-        int count;
-        char c;
+        int maara;
+        char merkki;
 
-        while (fread(&count, sizeof(int), 1, fp) == 1) {
-            fread(&c, sizeof(char), 1, fp);
-            for (int j = 0; j < count; j++) {
-                putchar(c);
+        while (fread(&maara, sizeof(int), 1, fp) == 1) {
+            fread(&merkki, sizeof(char), 1, fp);
+            for (int j = 0; j < maara; j++) {
+                putchar(merkki);
             }
         }
 
